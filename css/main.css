@@ -33,7 +33,7 @@ p {
 .navbar a{
     color: white;
     text-decoration: none;
-    padding: auto;
+    padding: 15px;
     display: inline-flex;
     text-align: center;
 }
@@ -41,5 +41,5 @@ p {
     background-color: green;
 }
 .navbar li{
-    float: center;
+    float: left;
 }
