@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <h1 style="text-align: center">LEARN ABOUT THE WORLD'S FAVORITE SPORT</h1>
-    <p>Hello World!</p>
+<body style="background-color: black;">
+    <div class="topnav" id="Navbar">
+        <a href="#home" class="active">HOME</a>
+        <a href="#watch">WATCH</a>
+        <a href="#rules">RULES</a>
+        <a href="#leagues">LEAGUES</a>
+        <a href="#media">MEDIA</a>
+        <a href="#stats">STATS</a>
+    </div>
+
+    <div>
+        <h1 style="text-align: center">LEARN ABOUT THE WORLD'S FAVORITE SPORT</h1>
+        <p>Hello World!</p>
+    </div>
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("Navbar");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
 </html>
