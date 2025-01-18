@@ -19,6 +19,7 @@ p {
     width: 100%;
     height: 40%;
     background: url('imgs/header.jpeg') no-repeat center / cover;
+    color: white;
 
 }
 
@@ -28,6 +29,7 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border-bottom: 2px white;
 }
 .navbar a{
     color: white;
@@ -40,5 +42,5 @@ p {
     background-color: green;
 }
 .navbar li{
-    float:left;
+    float: center;
 }
