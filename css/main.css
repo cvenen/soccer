@@ -29,14 +29,14 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border-bottom: 2px white;
 }
 .navbar a{
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: auto;
     display: inline-flex;
     text-align: center;
+    float: center;
 }
 .navbar a:hover{
     background-color: green;
