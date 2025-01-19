@@ -4,22 +4,23 @@ html{
 }
 
 /* Hero Image styling */
-#hero {
+/* #hero {
     width: 100%;
     height: 40%;
     background: url('imgs/header.jpeg') no-repeat center / cover;
     color: white;
 
-}
+} */
 .container {
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url('imgs/header.jpeg');
 }
 .container .info h1{
     font-size: 3rem;
