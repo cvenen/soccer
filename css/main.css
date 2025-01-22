@@ -3,6 +3,13 @@ html{
     font-size: 18px;
 }
 
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 /* Hero Image styling */
 /* #hero {
     width: 100%;
@@ -20,7 +27,9 @@ html{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('imgs/header.jpeg');
+}
+.container .img{
+    object-fit: cover;
 }
 .container .info h1{
     font-size: 3rem;
